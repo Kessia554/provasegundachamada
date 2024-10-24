@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #000; /* Fundo para melhorar a visibilidade */
+}
+
+.background {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    justify-content: center; /* Centraliza horizontalmente */
+        height: 100vh;           /* Define a altura da tela inteira */
+            margin-left: 40px;  /* Margem à esquerda */
+            margin-right: 40px; /* Margem à direita */
+        
+        
+}
+
+.background img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    
+}
+
+.title, .titles, .main-title, .subtitle, .link, .center {
+    position: relative;
+    z-index: 2;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    .body-container 
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center;     /* Centraliza verticalmente */
+        height: 100vh;           /* Define a altura da tela inteira */
+            margin-l
+   eft: 40px;  /* Margem à esquerda */
+            margin-right: 40px; /* Margem à direita */
+        
+        
+    
+    
+}
+
+.titles {
+    color: rgb(255, 255, 255);
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+.title2 { color: rgb(28, 226, 150)
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+.main-title {
+    font-size: 36px;
+    margin-top: 200px;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin: 20px 70px;
+    color: rgb(243, 239, 239)
+}
+.subtitle2 {
+    font-size: 24px;
+    margin: 20px 70px;
+    color: rgb(0, 0, 0)
+}
+
+.link {
+    font-size: 20px;
+    margin: 20px 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
